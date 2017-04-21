@@ -68,7 +68,7 @@ class TestCase(unittest.TestCase):
         del self.string
         del self.result
 
-    def test_insert(self):
+    def test_solution(self):
         self.assertEqual(self.s.lengthOfLongestSubstring(self.string), self.result)
         self.assertEqual(Solution.length_of_longest_substring_a(self.string), self.result)
         self.assertEqual(Solution.length_of_longest_substring_b(self.string), self.result)

@@ -85,7 +85,7 @@ class TestCase(unittest.TestCase):
         del self.nums2
         del self.result
 
-    def test_insert(self):
+    def test_solution(self):
         self.assertEqual(self.s.findMedianSortedArrays(self.nums1, self.nums2), self.result)
 
 

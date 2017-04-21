@@ -62,7 +62,7 @@ class TestCase(unittest.TestCase):
         del self.list_1
         del self.list_2
 
-    def test_insert(self):
+    def test_solution(self):
         self.assertEqual(Solution.add_two_numbers_1(self.list_1, self.list_2) == self.result, True)
         self.assertEqual(Solution.add_two_numbers_2(self.list_1, self.list_2) == self.result, True)
         # self.list_1 have been changed

@@ -42,7 +42,7 @@ class TestCase(unittest.TestCase):
         del self.nums
         del self.target
 
-    def test_insert(self):
+    def test_solution(self):
         self.assertEqual(self.s.twoSum(self.nums, self.target), self.result)
         self.assertEqual(Solution.two_sum_a(self.nums, self.target), self.result)
         self.assertEqual(Solution.two_sum_b(self.nums, self.target), self.result)
