@@ -26,40 +26,16 @@ class Solution(object):
         return zigzag + s[end::step]
 
     @classmethod
-    def convert_add_list(cls, s, num_rows):
+    def convert_add(cls, s, num_rows):
         if num_rows < 2 or num_rows > len(s):
             return s
-        zigzag, num, step, end = [[]] * num_rows, 0, -1, num_rows - 1
-        for item in s:
-                zigzag[num] += item
-                if num == 0 or num == end:
-                    step = -step
-                num += step
-        return "".join("".join(row) for row in zigzag)
-
-    @classmethod
-    def convert_add_list2(cls, s, num_rows):
-        if num_rows < 2 or num_rows > len(s):
-            return s
-        zigzag, num, step, end = [[]] * num_rows, 0, -1, num_rows - 1
-        for item in s:
-                zigzag[num] += item
-                if num == 0 or num == end:
-                    step = -step
-                num += step
-        return "".join([item for row in zigzag for item in row])
-
-    @classmethod
-    def convert_str_list(cls, s, num_rows):
-        if num_rows < 2 or num_rows > len(s):
-            return s
-        zigzag, num, step, end = [""] * num_rows, 0, -1, num_rows - 1
-        for item in s:
-            zigzag[num] += item
-            if num == 0 or num == end:
-                step = -step
-            num += step
-        return "".join(zigzag)
+        zigzag, length, step = "", len(s), 2 * num_rows - 2
+        for i in range(num_rows):
+            for j in range(i, length, step):
+                zigzag += s[j]
+                if 0 < i < num_rows - 1 and j + step - 2 * i < length:
+                    zigzag += s[j + step - 2 * i]
+        return zigzag
 
     @classmethod
     def convert_append(cls, s, num_rows):
@@ -74,16 +50,16 @@ class Solution(object):
         return "".join(zigzag)
 
     @classmethod
-    def convert_add(cls, s, num_rows):
+    def convert_str_list(cls, s, num_rows):
         if num_rows < 2 or num_rows > len(s):
             return s
-        zigzag, length, step = "", len(s), 2 * num_rows - 2
-        for i in range(num_rows):
-            for j in range(i, length, step):
-                zigzag += s[j]
-                if 0 < i < num_rows - 1 and j + step - 2 * i < length:
-                    zigzag += s[j + step - 2 * i]
-        return zigzag
+        zigzag, num, step, end = [""] * num_rows, 0, -1, num_rows - 1
+        for item in s:
+            zigzag[num] += item
+            if num == 0 or num == end:
+                step = -step
+            num += step
+        return "".join(zigzag)
 
     @classmethod
     def convert_io(cls, s, num_rows):
@@ -99,6 +75,30 @@ class Solution(object):
                 if 0 < i < num_rows - 1 and j + step - 2 * i < length:
                     file_str.write(s[j + step - 2 * i])
         return file_str.getvalue()
+
+    @classmethod
+    def convert_add_list(cls, s, num_rows):
+        if num_rows < 2 or num_rows > len(s):
+            return s
+        zigzag, num, step, end = [[] for _ in range(num_rows)], 0, -1, num_rows - 1
+        for item in s:
+            zigzag[num] += item
+            if num == 0 or num == end:
+                step = -step
+            num += step
+        return "".join("".join(row) for row in zigzag)
+
+    @classmethod
+    def convert_add_list2(cls, s, num_rows):
+        if num_rows < 2 or num_rows > len(s):
+            return s
+        zigzag, num, step, end = [[] for _ in range(num_rows)], 0, -1, num_rows - 1
+        for item in s:
+            zigzag[num] += item
+            if num == 0 or num == end:
+                step = -step
+            num += step
+        return "".join([item for row in zigzag for item in row])
 
     @classmethod
     def convert_list(cls, s, num_rows):
@@ -158,5 +158,14 @@ if __name__ == '__main__':
                 if callable(fn) and type(fn).__name__ == "method":
                     print(timeit.timeit(timeit_str.format(method, args), setup=setup_str), "\t", fn)
 
-    unittest.main()
-    # timeit_test()
+    # unittest.main()
+    timeit_test()
+    # 59.82795623878175    <bound method Solution.convert_add of <class '__main__.Solution'>>
+    # 93.19737380140278    <bound method Solution.convert_add_list of <class '__main__.Solution'>>
+    # 97.81394749245001    <bound method Solution.convert_add_list2 of <class '__main__.Solution'>>
+    # 73.60099295334032    <bound method Solution.convert_append of <class '__main__.Solution'>>
+    # 158.63693691178622   <bound method Solution.convert_gen of <class '__main__.Solution'>>
+    # 86.92313582104015    <bound method Solution.convert_io of <class '__main__.Solution'>>
+    # 141.7399025521355    <bound method Solution.convert_list of <class '__main__.Solution'>>
+    # 77.39370234554735    <bound method Solution.convert_str_list of <class '__main__.Solution'>>
+    # 27.964168942475453   <bound method Solution.convert_zip of <class '__main__.Solution'>>

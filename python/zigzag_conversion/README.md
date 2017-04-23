@@ -18,10 +18,6 @@ A. 直接实现法
 Time O(mn)     Space O(n)	Runtime: 122 ms 2017.03		+=
 Time O(mn)     Space O(n)	Runtime: 122 ms 2017.03		append
 Time O(mn)     Space O(n)	Runtime: 156 ms 2017.03		StringIO
+还可以使用zip_longest
 
-
-B. 反向标记法
-Time O(n)     Space O(n)
-Runtime: 342 ms 2017.03
-对数组进行遍历，对每个数，保存目标与其的差做为遍历结果字典的键，下标为值。
-则当某个数在遍历结果字典中，则表示前面出现了一个数与其的和为目标。
+如果只一次遍历，则需要定量个（the number of rows）数组来存储每个的结果
