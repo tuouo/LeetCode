@@ -160,12 +160,12 @@ if __name__ == '__main__':
 
     # unittest.main()
     timeit_test()
-    # 59.82795623878175    <bound method Solution.convert_add of <class '__main__.Solution'>>
-    # 93.19737380140278    <bound method Solution.convert_add_list of <class '__main__.Solution'>>
-    # 97.81394749245001    <bound method Solution.convert_add_list2 of <class '__main__.Solution'>>
-    # 73.60099295334032    <bound method Solution.convert_append of <class '__main__.Solution'>>
-    # 158.63693691178622   <bound method Solution.convert_gen of <class '__main__.Solution'>>
-    # 86.92313582104015    <bound method Solution.convert_io of <class '__main__.Solution'>>
-    # 141.7399025521355    <bound method Solution.convert_list of <class '__main__.Solution'>>
-    # 77.39370234554735    <bound method Solution.convert_str_list of <class '__main__.Solution'>>
-    # 27.964168942475453   <bound method Solution.convert_zip of <class '__main__.Solution'>>
+    # 18.85527949341562        <bound method Solution.convert_add of <class '__main__.Solution'>>
+    # 24.772183594141307       <bound method Solution.convert_add_list of <class '__main__.Solution'>>
+    # 27.16624188550287        <bound method Solution.convert_add_list2 of <class '__main__.Solution'>>
+    # 20.646547038218813       <bound method Solution.convert_append of <class '__main__.Solution'>>
+    # 44.642967052637275       <bound method Solution.convert_gen of <class '__main__.Solution'>>
+    # 23.900545783581663       <bound method Solution.convert_io of <class '__main__.Solution'>>
+    # 43.157794022737846       <bound method Solution.convert_list of <class '__main__.Solution'>>
+    # 21.533898604298287       <bound method Solution.convert_str_list of <class '__main__.Solution'>>
+    # 6.839766906810354        <bound method Solution.convert_zip of <class '__main__.Solution'>>
