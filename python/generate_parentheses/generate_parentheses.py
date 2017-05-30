@@ -11,7 +11,7 @@ class Solution(object):
         :type open: int. how many parenthesis are opened
         :rtype: List[str]
         """
-        return self.gen_recursion(n, 0)
+        return list(map(lambda item: "".join(item), self.gen_list_recursion(n, 0)))
 
     def gen_recursion(self, n, num=0):
         if n == 0:
@@ -21,6 +21,15 @@ class Solution(object):
         else:
             return [')' + x for x in self.gen_recursion(n, num - 1)] + \
                    ['(' + x for x in self.gen_recursion(n - 1, num + 1)]
+
+    def gen_list_recursion(self, n, num=0):
+        if n == 0:
+            return [[')'] * num]
+        if num == 0:
+            return [['('] + x for x in self.gen_list_recursion(n-1, 1)]
+        else:
+            return [[')'] + x for x in self.gen_list_recursion(n, num - 1)] + \
+                   [['('] + x for x in self.gen_list_recursion(n - 1, num + 1)]
 
 
 class TestCase(unittest.TestCase):
