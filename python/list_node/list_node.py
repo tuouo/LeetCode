@@ -39,6 +39,19 @@ class ListNode(object):
         """Define a non-equality test"""
         return not self.__eq__(other)
 
+    def __lt__(self, other):
+        return self.val < other.val
+
+    def __gt__(self, other):
+        return self.val > other.val
+
+    def __le__(self, other):
+        return self.val <= other.val
+
+    def __ge__(self, other):
+        return self.val >= other.val
+
+
 if __name__ == '__main__':
     a = ListNode(0)
     a.next = ListNode(1)
