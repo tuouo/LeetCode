@@ -11,7 +11,44 @@ class Solution(object):
         :type lists: List[ListNode]
         :rtype: ListNode
         """
-        return self.mergeKListerHelper(lists, 0, len(lists)-1)
+        # return self.mergeKListerHelper(lists, 0, len(lists)-1)
+        return self.with_heap_replace(lists)
+
+    def with_heap_replace(self, lists):
+        if not lists:
+            return None
+        import heapq
+        heap_min = [(item.val, item) for item in lists if item]
+        heapq.heapify(heap_min)
+        cur = sentry = ListNode(0)
+
+        while heap_min:
+            v, item = heap_min[0]
+            if item.next:
+                heapq.heapreplace(heap_min, (item.next.val, item.next))
+            else:
+                heapq.heappop(heap_min)
+            cur.next = item
+            cur = cur.next
+
+        return sentry.next
+
+    def with_heap(self, lists):
+        if not lists:
+            return None
+        import heapq
+        heap_min = [(item.val, item) for item in lists if item]
+        heapq.heapify(heap_min)
+        cur = sentry = ListNode(0)
+
+        while heap_min:
+            cur.next = heapq.heappop(heap_min)[1]
+            cur = cur.next
+            if cur.next:
+                heapq.heappush(heap_min, (cur.next.val, cur.next))
+
+        return sentry.next
+
 
     def mergeTwoLists(self, l1, l2):
         new = sentry = ListNode(0)
