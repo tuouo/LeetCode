@@ -46,7 +46,6 @@ class Solution(object):
             l1.next = l2
         return sentry.next
 
-
     def origin_less_check(self, l1, l2):
         if not l1 or not l2:
             return l1 or l2
@@ -54,11 +53,12 @@ class Solution(object):
         while l2:
             if l1.val > l2.val:
                 l1.val, l2.val = l2.val, l1.val
-                l1.next, l2.next, l2 = l2, l1.next, l2.next
-            if l1.next:
-                l1 = l1.next
+                l1.next, l2.next, l1, l2 = l2, l1.next, l2, l2.next
             else:
-                break
+                if l1.next:
+                    l1 = l1.next
+                else:
+                    break
         if l2:
             l1.next = l2
         return sentry
