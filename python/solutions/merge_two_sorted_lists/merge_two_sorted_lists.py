@@ -50,8 +50,7 @@ class Solution(object):
     def origin_less_check(self, l1, l2):
         if not l1 or not l2:
             return l1 or l2
-        sentry = ListNode(0)
-        sentry.next = l1
+        sentry = l1
         while l2:
             if l1.val > l2.val:
                 l1.val, l2.val = l2.val, l1.val
@@ -62,7 +61,7 @@ class Solution(object):
                 break
         if l2:
             l1.next = l2
-        return sentry.next
+        return sentry
 
 
 class TestCase(unittest.TestCase):
