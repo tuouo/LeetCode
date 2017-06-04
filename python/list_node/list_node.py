@@ -153,3 +153,6 @@ if __name__ == '__main__':
     b.next = ListNode(0)
     print(a)
     print(a == b)
+    root = ListNode(1, ListNode(2, ListNode(2, ListNode(4, ListNode(5)))))
+    print(root)
+
