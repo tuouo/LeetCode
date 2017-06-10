@@ -63,7 +63,7 @@ class TestCase(unittest.TestCase):
         pass
 
     def test_divide(self):
-        self.assertEqual((Solution().divide(123432, -3)), -41144)
+        self.assertEqual(Solution().divide(123432, -3), -41144)
 
 
 if __name__ == '__main__':
