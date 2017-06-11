@@ -12,6 +12,25 @@ class Solution(object):
         """
         return self.dp_doing(s)
 
+    def count_left(self, s):
+        pre, result, items = -1, 0, []
+        for i in range(len(s)):
+            if s[i] == '(':
+                if pre != -1:
+                    items.append(pre)
+                    pre = -1
+                else:
+                    items.append(i)
+            else:
+                if items:
+                    start = items.pop()
+                    if i - start + 1 > result:
+                        result = i - start + 1
+                    pre = start
+                else:
+                    pre = -1
+        return result
+
     def dp_no_check(self, s):
         if not s:
             return 0
