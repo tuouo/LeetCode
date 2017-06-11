@@ -10,7 +10,32 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        return self.find_count(s)
+        return self.dp_doing(s)
+
+    def dp_no_check(self, s):
+        if not s:
+            return 0
+        s = ")" + s
+        lengths = [0 for _ in range(len(s))]
+        for pos in range(1, len(s)):
+            if s[pos] == ")":
+                pre = pos - 1 - lengths[pos - 1]
+                if s[pre] == "(":
+                    lengths[pos] = lengths[pos - 1] + 2 + lengths[pre - 1]
+        return max(lengths)
+
+    def dp_doing(self, s):
+        if not s:
+            return 0
+        lengths = [0 for _ in range(len(s))]
+        for pos in range(1, len(s)):
+            if s[pos] == ")":
+                pre = pos - 1 - lengths[pos - 1]
+                if pre >= 0 and s[pre] == "(":
+                    lengths[pos] = lengths[pos - 1] + 2
+                    if pre >= 1:
+                        lengths[pos] += lengths[pre - 1]
+        return max(lengths)
 
     def find_count(self, s):
         pre, result, items = -1, 0, []
