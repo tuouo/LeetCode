@@ -12,7 +12,7 @@ Here is the classification of free questions.
 ## <span id="array">Array</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Note  | 
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
-1 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | _O(n)_ | _O(1)_ | [Python](../../tree/master/Python/solutions/two_sum) |  ||
+1 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/two_sum) |  ||
 
 
 
