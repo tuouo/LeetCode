@@ -1,7 +1,7 @@
 [LeetCode](https://leetcode.com "An online judge: an online system to test programs in programming contests")
 =============
 The Python 3 journey of [leetcode Problems Algorithms](https://leetcode.com/problemset/algorithms)  
-You may meet some problems on the way, and [it(Problems you may face to)](https://github.com/tuouo/LeetCode/blob/master/python/info.md) may be helpful.  
+You may meet some problems on the way, and [it(Problems you may face to)](./python/info.md) may be helpful.  
 
 Here is the classification of free questions.
 ## Algorithms
@@ -68,10 +68,10 @@ Here is the classification of free questions.
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/add_two_numbers) |  ||
-19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/remove_nth_node_from_end_of_list) |  ||
+19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/remove_nth_node_from_end_of_list) |  ||
 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/merge_two_sorted_lists) |  ||
 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | Hard | _O(nlogk)_ | _O(1)_ | [Python](./python/solutions/merge_k_sorted_list) |  ||
-24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/swap_nodes_in_pairs) |  ||
+24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/swap_nodes_in_pairs) |  ||
 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/reverse_nodes_in_k_group) |  ||
 
 
@@ -79,9 +79,9 @@ Here is the classification of free questions.
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/add_two_numbers) |  ||
-7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) |  Easy | _O(1)_ | _O(1)_ | [Python](./python/solutions/reverse_integer) |  ||
-8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | _O(1)_ | _O(1)_ | [Python](./python/solutions/string_to_integer) |  ||
-9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | _O(1)_ | _O(1)_ | [Python](./python/solutions/palindrome_number) |  ||
+7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) |  Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/reverse_integer) |  ||
+8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/string_to_integer) |  ||
+9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/palindrome_number) |  ||
 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/Integer_to_Roman) | directly ||
 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/Roman_to_Integer) | lambda ||
 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | _O(m/n)_ | _O(1)_ | [Python](./python/solutions/divide_two_integers) |  ||
@@ -105,12 +105,12 @@ Here is the classification of free questions.
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | _O(n)_ | _O(n)_ | [Python](./python/solutions/longest_substring_without_repeating_characters) | between the same ||
 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | _O(n)_ | _O(n)_ | [Python](./python/solutions/longest_palindromic_substring) | Manacher ||
-6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag_conversion) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/zigzag-conversion) | join ||
-8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | _O(1)_ | _O(1)_ | [Python](./python/solutions/string_to_integer) |  ||
+6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/zigzag_conversion) | join ||
+8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/string_to_integer) |  ||
 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | Hard | _O(mn)_ | _O(mn)_ | [Python](./python/solutions/regular_expression_matching) |  ||
 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/Integer_to_Roman) | directly ||
 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/Roman_to_Integer) | lambda ||
-14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | Medium | _O(mn)_ | _O(1)_ | [Python](./python/solutions/longest_common_prefix) | zip is better ||
+14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | Easy | _O(mn)_ | _O(1)_ | [Python](./python/solutions/longest_common_prefix) | zip is better ||
 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | _O(4^n)_ | _O(n)_ | [Python](./python/solutions/letter_combinations_of_a_phone_number) | reduce works ||
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | _O(n)_ | _O(n)_ | [Python](./python/solutions/valid_parentheses) |  ||
 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | Medium | O(4^n / n^(3/2)) | _O(n)_ | [Python](./python/solutions/generate_parentheses) | generate, closed? ||
