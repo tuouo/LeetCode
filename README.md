@@ -55,6 +55,7 @@ Here is the classification of free questions.
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/remove_duplicates_from_sorted_array) |  ||
 27 | [Remove Element](https://leetcode.com/problems/remove-element) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/remove_element) |  ||
 31 | [Next Permutation](https://leetcode.com/problems/next-permutation) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/next_permutation) |  ||
+33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_in_rotated_sorted_array) | Binary Search ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
@@ -123,6 +124,7 @@ Here is the classification of free questions.
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | _O(log(m+n))_ | _O(1)_ | [Python](./python/solutions/median_of_two_sorted_arrays) | find kth ||
 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | _O(m/n)_ | _O(1)_ | [Python](./python/solutions/divide_two_integers) |  ||
+33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_in_rotated_sorted_array) | Binary Search ||
 
 ## <span id="divide-and-conquer">Divide & Conquer</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
