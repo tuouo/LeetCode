@@ -57,6 +57,7 @@ Here is the classification of free questions.
 31 | [Next Permutation](https://leetcode.com/problems/next-permutation) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/next_permutation) |  ||
 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_in_rotated_sorted_array) | Binary Search ||
 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_for_a_range) | Binary Search left, then right ||
+35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search _insert_position) | check range & bisect ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
@@ -127,6 +128,7 @@ Here is the classification of free questions.
 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | _O(m/n)_ | _O(1)_ | [Python](./python/solutions/divide_two_integers) |  ||
 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_in_rotated_sorted_array) | Binary Search ||
 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_for_a_range) | Search left, then right ||
+35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search _insert_position) | check range & bisect ||
 
 ## <span id="divide-and-conquer">Divide & Conquer</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
