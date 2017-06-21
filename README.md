@@ -66,6 +66,7 @@ Here is the classification of free questions.
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | _O(n)_ | _O(n)_ | [Python](./python/solutions/longest_substring_without_repeating_characters) | between the same ||
 18 | [4Sum](https://leetcode.com/problems/4sum) | Medium | _O(n^3)_ | _O(1)_ | [Python](./python/solutions/4sum) | 3sum ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [Python](./python/solutions/substring_with_oncatenation_of_all_words) | use find info ||
+37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | _O((9!)^9)_ | _O(1)_ | [Python](./python/solutions/sudoku_solver) | check then put, if wrong backtracking. & play like human ||
 
 ## <span id="linked-list">Linked List</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
@@ -142,6 +143,7 @@ Here is the classification of free questions.
 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | Hard | _O(mn)_ | _O(mn)_ | [Python](./python/solutions/regular_expression_matching) |  ||
 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | _O(4^n)_ | _O(n)_ | [Python](./python/solutions/letter_combinations_of_a_phone_number) | reduce works ||
 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | Medium | O(4^n / n^(3/2)) | _O(n)_ | [Python](./python/solutions/generate_parentheses) | generate, closed? ||
+37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | _O((9!)^9)_ | _O(1)_ | [Python](./python/solutions/sudoku_solver) | check then put, if wrong backtracking. & play like human ||
 
 ## <span id="dynamic-programming">Dynamic Programming</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
