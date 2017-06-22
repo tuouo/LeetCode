@@ -66,6 +66,7 @@ Here is the classification of free questions.
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | _O(n)_ | _O(n)_ | [Python](./python/solutions/longest_substring_without_repeating_characters) | between the same ||
 18 | [4Sum](https://leetcode.com/problems/4sum) | Medium | _O(n^3)_ | _O(1)_ | [Python](./python/solutions/4sum) | 3sum ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [Python](./python/solutions/substring_with_oncatenation_of_all_words) | use find info ||
+36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | Medium | _O(9×9)_ | _O(9×9)_ | [Python](./python/solutions/valid_sudoku) | many ways to check ||
 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | _O((9!)^9)_ | _O(1)_ | [Python](./python/solutions/sudoku_solver) | check then put, if wrong backtracking. Or play like human ||
 
 ## <span id="linked-list">Linked List</span>
