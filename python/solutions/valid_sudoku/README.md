@@ -9,5 +9,7 @@ A valid Sudoku board (partially filled) is not necessarily solvable. Only the fi
 
 ############################################################
 
-solution: https://github.com/tuouo/games/tree/master/sodoku
+根据规则，每一行每一列每个区块都不能有相同的数字。根据这一点判断即可。
+
+有很多很多种方法可以高效实现。
 
