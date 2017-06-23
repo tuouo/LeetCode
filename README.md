@@ -122,6 +122,7 @@ Here is the classification of free questions.
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy | _O(mn)_ | _O(n)_ | [Python](./python/solutions/implement_strStr) |  ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [Python](./python/solutions/substring_with_oncatenation_of_all_words) | use find info ||
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/longest_valid_parentheses) | ||
+38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/count_and_say) | pythonchallenge(level 10) ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | 
