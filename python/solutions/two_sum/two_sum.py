@@ -11,7 +11,7 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        return Solution.two_sum_b(nums, target)
+        return Solution.two_sum_c(nums, target)
 
     @staticmethod
     def two_sum_a(nums, target):
@@ -31,6 +31,18 @@ class Solution(object):
                 return [tmp[nums[i]], i]
             else:
                 tmp[target - nums[i]] = i
+
+    @staticmethod
+    def two_sum_c(nums, target):
+        if len(nums) < 1:
+            return
+        tmp = {}
+        for i in range(len(nums)):
+            this = nums[i]
+            if this in tmp:
+                return [tmp[this], i]
+            else:
+                tmp[target - this] = i
 
 
 class TestCase(unittest.TestCase):
