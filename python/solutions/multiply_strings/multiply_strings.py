@@ -16,11 +16,10 @@ class Solution(object):
     def use_build_in(self, num1, num2):  # 94.76(49ms,1704)
         return str(int(num1) * int(num2))
 
-    def use_dict(self, num1, num2):  # 76.65(4168ms,170629)
+    def use_dict(self, num1, num2):  # 75.6(182ms,170629)
         if num1 == "0" or num2 == "0":
             return "0"
         maps = {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9}
-        # len_1, len_2, num1, num2 = len(num1), len(num2), num1[::-1], num2[::-1]
         length = len(num1) + len(num2)
         temp = [0] * length
         for i, value1 in enumerate(reversed(num1)):
@@ -33,7 +32,7 @@ class Solution(object):
             i -= 1
         return "".join(map(str, temp[:i+1][::-1]))
 
-    def use_dict_old(self, num1, num2):  # 76.65(4168ms,170629)
+    def use_dict_old(self, num1, num2):  # 76.65(168ms,170629)
         if num1 == "0" or num2 == "0":
             return "0"
         maps = {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9}
