@@ -61,7 +61,7 @@ Here is the classification of free questions.
 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum) | backtracking, check target | 99.81(72ms,170625) ||
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum_II) | | 93.17(65ms,170626) ||
 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/first_missing_positive) | reset x to position x | 72.06(42ms,170627) ||
-44 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
+42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -94,6 +94,7 @@ Here is the classification of free questions.
 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/Integer_to_Roman) | directly | 90.62(105ms, 1705) ||
 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/Roman_to_Integer) | lambda | 88.58(132ms, 1705) ||
 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | _O(m/n)_ | _O(1)_ | [Python](./python/solutions/divide_two_integers) | | 33.58(68ms, 1703) ||
+43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [Python](./python/solutions/multiply_strings) | carry, once |  94.76(49ms,1704)/76.65(168ms,170629) ||
 
 ## <span id="two-pointers">Two Pointers</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -108,7 +109,7 @@ Here is the classification of free questions.
 27 | [Remove Element](https://leetcode.com/problems/remove-element) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/remove_element) |  | 67.84(45ms, 1703) ||
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy | _O(mn)_ | _O(n)_ | [Python](./python/solutions/implement_strStr) | | 41.03(58ms, 1703) ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [Python](./python/solutions/substring_with_oncatenation_of_all_words) | use find info | 70.72(98ms,170620) ||
-44 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
+42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
 
 ## <span id="string">String</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -128,6 +129,7 @@ Here is the classification of free questions.
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [Python](./python/solutions/substring_with_oncatenation_of_all_words) | use find info | 70.72(98ms,170620) ||
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/longest_valid_parentheses) | | 72.88(79ms,170614) ||
 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/count_and_say) | pythonchallenge(level 10) | 41.89(55ms, 1705) ||
+43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [Python](./python/solutions/multiply_strings) | carry, once |  94.76(49ms,1704)/76.65(168ms,170629) ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -164,7 +166,7 @@ Here is the classification of free questions.
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | _O(n)_ | _O(n)_ | [Python](./python/solutions/valid_parentheses) | | 92.77(39ms, 1703) ||
-44 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
+42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
 
 ## <span id="heap">Heap</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
