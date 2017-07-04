@@ -17,6 +17,7 @@ Here is the classification of free questions.
 * [Dynamic Programming](#dynamic-programming)
 * [Stack](#stack)
 * [Heap](#heap)
+* [Greedy](#greedy)
 
 <!--
 * [Bit Manipulation](#bit-manipulation)
@@ -36,8 +37,6 @@ Here is the classification of free questions.
 * [Breadth-First Search](#breadth-first-search)
 ## <span id=""></span>
 * [Depth-First Search](#depth-first-search)
-## <span id=""></span>
-* [Greedy](#greedy)
 ## <span id=""></span>
 * [Design](#design)
 ## <span id=""></span>
@@ -71,7 +70,7 @@ Here is the classification of free questions.
 18 | [4Sum](https://leetcode.com/problems/4sum) | Medium | _O(n^3)_ | _O(1)_ | [Python](./python/solutions/4sum) | 3sum | 86.12(132ms, 1703) ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [Python](./python/solutions/substring_with_oncatenation_of_all_words) | use find info | 70.72(98ms,170620) ||
 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | Medium | _O(9×9)_ | _O(9×9)_ | [Python](./python/solutions/valid_sudoku) | many ways to check | 75.42(76ms,170623) ||
-37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | _O((9!)^9)_ | _O(1)_ | [Python](./python/solutions/sudoku_solver) | check then put, if wrong backtracking. Or play like human | 90.91(72ms,170623) ||
+37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | _O((9!)^9)_ | _O(1)_ | [Python](./python/solutions/sudoku_solver) | check then put, if wrong backtrack. Or play like human | 90.91(72ms,170623) ||
 
 ## <span id="linked-list">Linked List</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -130,6 +129,7 @@ Here is the classification of free questions.
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/longest_valid_parentheses) | | 72.88(79ms,170614) ||
 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/count_and_say) | pythonchallenge(level 10) | 41.89(55ms, 1705) ||
 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [Python](./python/solutions/multiply_strings) | carry, once |  94.76(49ms,1704)/76.65(168ms,170629) ||
+44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -155,12 +155,14 @@ Here is the classification of free questions.
 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | _O((9!)^9)_ | _O(1)_ | [Python](./python/solutions/sudoku_solver) | check then put, if wrong backtracking. Or play like human | 90.91(72ms,170623) ||
 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum) | backtracking, check target | 99.81(72ms,170625) ||
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum_II) | | 93.17(65ms,170626) ||
+44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
 
 ## <span id="dynamic-programming">Dynamic Programming</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | Hard | _O(mn)_ | _O(mn)_ | [Python](./python/solutions/regular_expression_matching) | | 85.45(82ms, 1705) ||
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/longest_valid_parentheses) | | 72.88(79ms,170614)  ||
+44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
 
 ## <span id="stack">Stack</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -172,6 +174,13 @@ Here is the classification of free questions.
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | Hard | _O(nlogk)_ | _O(1)_ | [Python](./python/solutions/merge_k_sorted_list) | replace | 98.15(105ms, 1703) ||
+
+
+## <span id="greedy">Greedy</span>
+| No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
+|:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
+44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
+
 
 <!--
 <meta http-equiv="refresh" content="5">
