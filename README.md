@@ -61,6 +61,7 @@ Here is the classification of free questions.
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum_II) | | 93.17(65ms,170626) ||
 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/first_missing_positive) | reset x to position x | 72.06(42ms,170627) ||
 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
+45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/tjump_game_ii) | | 98.24(49ms,170705) ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -156,6 +157,7 @@ Here is the classification of free questions.
 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum) | backtracking, check target | 99.81(72ms,170625) ||
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum_II) | | 93.17(65ms,170626) ||
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
+46 | [Permutations](https://leetcode.com/problems/permutations) | Medium | _O(n!)_ | _O(n*n!)_ | [Python](./python/solutions/permutations) | | 87.53(66ms,1704)  ||
 
 ## <span id="dynamic-programming">Dynamic Programming</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -180,6 +182,7 @@ Here is the classification of free questions.
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
+45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/tjump_game_ii) | | 98.24(49ms,170705) ||
 
 
 <!--
