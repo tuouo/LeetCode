@@ -158,6 +158,7 @@ Here is the classification of free questions.
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | _O(k*n^k)_ | _O(k^2)_ | [Python](./python/solutions/combination_sum_II) | | 93.17(65ms,170626) ||
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
 46 | [Permutations](https://leetcode.com/problems/permutations) | Medium | _O(n!)_ | _O(n*n!)_ | [Python](./python/solutions/permutations) | | 87.53(66ms,1704)  ||
+47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium | _O(n!)_ | _O(n*n!)_ | [Python](./python/solutions/permutationsII) | | _94.36（99ms）_  ||
 
 ## <span id="dynamic-programming">Dynamic Programming</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
