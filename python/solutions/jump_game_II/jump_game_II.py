@@ -32,6 +32,7 @@ class Solution(object):
             far = max(far, pos + nums[pos])
         return step
 
+
 class TestCase(unittest.TestCase):
     def setUp(self):
         pass

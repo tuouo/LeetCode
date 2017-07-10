@@ -46,6 +46,7 @@ class Solution(object):
                         reduce(lambda pre, digit: [item + [letter] for item in pre for letter in kvmaps[digit]],
                                digits, [[]])))
 
+
 class TestCase(unittest.TestCase):
     def setUp(self):
         pass

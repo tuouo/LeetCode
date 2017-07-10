@@ -49,7 +49,6 @@ class Solution(object):
 
         return sentry.next
 
-
     def mergeTwoLists(self, l1, l2):
         new = sentry = ListNode(0)
         while l1 and l2:

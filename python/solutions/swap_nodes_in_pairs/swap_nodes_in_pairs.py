@@ -40,6 +40,7 @@ class Solution(object):
             node2 = node1.next
         return sentry.next
 
+
 class TestCase(unittest.TestCase):
     def setUp(self):
         pass

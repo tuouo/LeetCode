@@ -22,7 +22,6 @@ class Solution(object):
                 nums[pre], nums[end], end = nums[end], nums[pre], end - 1
             else:
                 pre += 1
-        # print(nums)
         return pre
 
     def move_first(self, nums, val):
@@ -32,7 +31,6 @@ class Solution(object):
                 nums[pre], nums[end], end = nums[end], nums[pre], end - 1
             else:
                 pre += 1
-        # print(nums)
         return pre
 
 
