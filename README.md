@@ -62,6 +62,7 @@ Here is the classification of free questions.
 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/first_missing_positive) | reset x to position x | 72.06(42ms,170627) ||
 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/tjump_game_ii) | | 98.24(49ms,170705) ||
+48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | Medium | _O(n^2)_ | _O(1)_ | [Python](./python/solutions/rotate_image) | | 61(45ms,170704) ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
