@@ -73,6 +73,7 @@ Here is the classification of free questions.
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [Python](./python/solutions/substring_with_oncatenation_of_all_words) | use find info | 70.72(98ms,170620) ||
 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | Medium | _O(9×9)_ | _O(9×9)_ | [Python](./python/solutions/valid_sudoku) | many ways to check | 75.42(76ms,170623) ||
 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | _O((9!)^9)_ | _O(1)_ | [Python](./python/solutions/sudoku_solver) | check then put, if wrong backtrack. Or play like human | 90.91(72ms,170623) ||
+49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | _O(mn)_ | _O(mn)_ | [Python](./python/solutions/group_anagrams) | frequency with hash | 90.95(212ms, 170711) ||
 
 ## <span id="linked-list">Linked List</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -132,6 +133,7 @@ Here is the classification of free questions.
 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/count_and_say) | pythonchallenge(level 10) | 41.89(55ms, 1705) ||
 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [Python](./python/solutions/multiply_strings) | carry, once |  94.76(49ms,1704)/76.65(168ms,170629) ||
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
+49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | _O(mn)_ | _O(mn)_ | [Python](./python/solutions/group_anagrams) | frequency with hash | 90.95(212ms, 170711) ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
