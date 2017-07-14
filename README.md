@@ -85,7 +85,6 @@ Here is the classification of free questions.
 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | Easy | _O(n)_ | _O(1)_ | [Python](./python/solutions/swap_nodes_in_pairs) | | 60.77(42ms, 1703) ||
 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/reverse_nodes_in_k_group) |  | 73.50(72ms,170605) ||
 
-
 ## <span id="math">Math</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
@@ -97,6 +96,7 @@ Here is the classification of free questions.
 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/Roman_to_Integer) | lambda | 88.58(132ms, 1705) ||
 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | _O(m/n)_ | _O(1)_ | [Python](./python/solutions/divide_two_integers) | | 33.58(68ms, 1703) ||
 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [Python](./python/solutions/multiply_strings) | carry, once |  94.76(49ms,1704)/76.65(168ms,170629) ||
+50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Medium | _O(m*n)_ | _O(m+n)_ | [Python](./python/solutions/powx_n) | | 74.33(39ns, 1705) ||
 
 ## <span id="two-pointers">Two Pointers</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -143,6 +143,7 @@ Here is the classification of free questions.
 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_in_rotated_sorted_array) | Binary Search | 21.87(58ms, 1703) ||
 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range) | Medium | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_for_a_range) | Search left, then right | 73.72(45ms,170620) ||
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | _O(logn)_ | _O(1)_ | [Python](./python/solutions/search_insert_position) | check range & bisect | 82.93(39ms,170620)  ||
+50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Medium | _O(m*n)_ | _O(m+n)_ | [Python](./python/solutions/powx_n) | | 74.33(39ns, 1705) ||
 
 ## <span id="divide-and-conquer">Divide & Conquer</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
