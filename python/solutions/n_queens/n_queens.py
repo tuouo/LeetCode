@@ -5,7 +5,7 @@ import unittest
 
 
 class Solution(object):
-    def solveNQueens(self, n):
+    def solveNQueens(self, n):  # 77.69(95ms, 201704)
         """
         :type n: int
         :rtype: List[List[str]]
@@ -18,7 +18,7 @@ class Solution(object):
 
     def solve(self, row, one):
         if row == self.n:
-            self.result.append(list(map(lambda x: "." * x + "Q" + "." * (self.n - 1 - x), one)))
+            self.result.append(["." * i + "Q" + "." * (self.n - i - 1) for i in one])
         else:
             for pos in range(self.n):
                 if self.col[pos] and self.bias[pos + row] and self.bias_anti[self.n - pos + row]:
