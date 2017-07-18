@@ -164,6 +164,7 @@ Here is the classification of free questions.
 46 | [Permutations](https://leetcode.com/problems/permutations) | Medium | _O(n!)_ | _O(n*n!)_ | [Python](./python/solutions/permutations) | | 87.53(66ms,1704)  ||
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium | _O(n!)_ | _O(n*n!)_ | [Python](./python/solutions/permutationsII) | | _94.36（99ms）_  ||
 51 | [N-Queens](https://leetcode.com/problems/n-queens) | Hard | _O(n^3)_ | _O(n*n)_ | [Python](./python/solutions/n_queens) | bit | 100(62ms, 20170717)  ||
+51 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | Hard | _O(n^3)_ | _O(n*n)_ | [Python](./python/solutions/n_queens_ii) | bit | 99.27(42ms, 201704)  ||
 
 ## <span id="dynamic-programming">Dynamic Programming</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
