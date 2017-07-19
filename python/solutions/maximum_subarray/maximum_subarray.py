@@ -10,9 +10,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        if not nums:
+            return
         total = total_all = nums[0]
         for num in nums[1:]:
-            total = max(num, total + num)
+            total = max(total + num, num)
             if total_all < total:
                 total_all = total
         return total_all

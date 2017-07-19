@@ -63,6 +63,7 @@ Here is the classification of free questions.
 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/trapping_rain_water) | PEAK peak PEAK | 72.91(52ms,1706278) ||
 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | _O(n)_ | _O(n)_ | [Python](./python/solutions/tjump_game_ii) | | 98.24(49ms,170705) ||
 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | Medium | _O(n^2)_ | _O(1)_ | [Python](./python/solutions/rotate_image) | | 61(45ms,170704) ||
+53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/maximum_subarray) | | 88.17(45ms,170719) ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -150,6 +151,7 @@ Here is the classification of free questions.
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | _O(log(m+n))_ | _O(1)_ | [Python](./python/solutions/median_of_two_sorted_arrays) | find kth | 78.16(99ms, 1706)||
 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | Hard | _O(nlogk)_ | _O(1)_ | [Python](./python/solutions/merge_k_sorted_list) |  | 98.15(105ms, 1703) ||
+53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/maximum_subarray) | | 88.17(45ms,170719) ||
 
 ## <span id="backtracking">Backtracking</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
@@ -172,6 +174,7 @@ Here is the classification of free questions.
 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | Hard | _O(mn)_ | _O(mn)_ | [Python](./python/solutions/regular_expression_matching) | | 85.45(82ms, 1705) ||
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | _O(n)_ | _O(1)_ | [Python](./python/solutions/longest_valid_parentheses) | | 72.88(79ms,170614)  ||
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [Python](./python/solutions/wildcard_matching) | | 86.49(109ms,1704)  ||
+53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [Python](./python/solutions/maximum_subarray) | | 88.17(45ms,170719) ||
 
 ## <span id="stack">Stack</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution  |  Tip  | Runtime |
