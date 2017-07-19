@@ -178,7 +178,7 @@ Here is the classification of free questions.
 
 ## <span id="stack">Stack</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
-|:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|:-------|
+|:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | _O(n)_ | _O(n)_ | [92.77(39ms, 1703)](./python/solutions/valid_parentheses) | ||
 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [72.91(52ms,1706278)](./python/solutions/trapping_rain_water) | PEAK peak PEAK ||
 
