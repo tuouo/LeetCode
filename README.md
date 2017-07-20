@@ -64,6 +64,7 @@ Here is the classification of free questions.
 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | _O(n)_ | _O(n)_ | [98.24(49ms,170705)](./python/solutions/tjump_game_ii) | ||
 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | Medium | _O(n^2)_ | _O(1)_ | [61(45ms,170704)](./python/solutions/rotate_image) | ||
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [88.17(45ms,170719)](./python/solutions/maximum_subarray) | ||
+54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium | _O(mn)_ | _O(mn)_ | [82.77(32ms,170720)](./python/solutions/spiral_matrix) | ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
