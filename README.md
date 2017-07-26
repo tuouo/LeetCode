@@ -18,6 +18,7 @@ Here is the classification of free questions.
 * [Stack](#stack)
 * [Heap](#heap)
 * [Greedy](#greedy)
+* [Sort](#sortsort)
 
 <!--
 * [Bit Manipulation](#bit-manipulation)
@@ -27,8 +28,6 @@ Here is the classification of free questions.
 * [Tree](#tree)
 ## <span id=""></span>
 * [Data Structure](#data-structure)
-## <span id=""></span>
-* [Sort](#sort)
 ## <span id=""></span>
 * [Recursion](#recursion)
 ## <span id=""></span>
@@ -66,6 +65,7 @@ Here is the classification of free questions.
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [88.17(45ms,170719)](./python/solutions/maximum_subarray) | ||
 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium | _O(mn)_ | _O(mn)_ | [82.77(32ms,170720)](./python/solutions/spiral_matrix) | ||
 55 | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | _O(m)_ | _O(1)_ | [63.92(52ms,170723)](./python/solutions/jump_game) | ||
+55 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | _O(m)_ | _O(1)_ | [92.09(72ms, 170726)](./python/solutions/merge_intervals) | ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -197,6 +197,11 @@ Here is the classification of free questions.
 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | _O(n)_ | _O(n)_ | [98.24(49ms,170705)](./python/solutions/tjump_game_ii) | ||
 55 | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | _O(m)_ | _O(1)_ | [63.92(52ms,170723)](./python/solutions/jump_game) | ||
 
+
+## <span id="sortsort">Sort</span>
+| No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
+|:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
+55 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | _O(m)_ | _O(1)_ | [92.09(72ms, 170726)](./python/solutions/merge_intervals) | ||
 
 <!--
 <meta http-equiv="refresh" content="5">
