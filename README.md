@@ -65,7 +65,8 @@ Here is the classification of free questions.
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [88.17(45ms,170719)](./python/solutions/maximum_subarray) | ||
 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium | _O(mn)_ | _O(mn)_ | [82.77(32ms,170720)](./python/solutions/spiral_matrix) | ||
 55 | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | _O(m)_ | _O(1)_ | [63.92(52ms,170723)](./python/solutions/jump_game) | ||
-55 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | _O(m)_ | _O(1)_ | [92.09(72ms, 170726)](./python/solutions/merge_intervals) | ||
+56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | _O(m)_ | _O(1)_ | [92.09(72ms, 170726)](./python/solutions/merge_intervals) | ||
+57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | Hard | _O(m)_ | _O(1)_ | [98.84(62ms, 170727)](./python/solutions/insert_intervals) | leetcode may give wrong Runtime ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -133,7 +134,7 @@ Here is the classification of free questions.
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy | _O(mn)_ | _O(n)_ | [41.03(58ms, 1703)](./python/solutions/implement_strStr) | ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [70.72(98ms,170620)](./python/solutions/substring_with_oncatenation_of_all_words) | use find info ||
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | _O(n)_ | _O(1)_ | [72.88(79ms,170614)](./python/solutions/longest_valid_parentheses) | ||
-38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Hard | _O(n)_ | _O(1)_ | [41.89(55ms, 1705)](./python/solutions/count_and_say) | pythonchallenge(level 10) ||
+38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Hard | _O(n)_ | _O(1)_ | [41.89(55ms, 1705)](./python/solutions/count_and_say) | pythonchallenge (level 10) ||
 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [94.76(49ms,1704) / 76.65(168ms,170629)](./python/solutions/multiply_strings) | carry, once ||
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [86.49(109ms,1704)](./python/solutions/wildcard_matching) | ||
 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | _O(mn)_ | _O(mn)_ | [90.95(212ms, 170711)](./python/solutions/group_anagrams) | frequency with hash ||
@@ -168,7 +169,7 @@ Here is the classification of free questions.
 46 | [Permutations](https://leetcode.com/problems/permutations) | Medium | _O(n!)_ | _O(n*n!)_ | [87.53(66ms,1704)](./python/solutions/permutations) | ||
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium | _O(n!)_ | _O(n*n!)_ | [_94.36(99ms,1703)_](./python/solutions/permutationsII) | ||
 51 | [N-Queens](https://leetcode.com/problems/n-queens) | Hard | _O(n^3)_ | _O(n*n)_ | [100(62ms,170717)](./python/solutions/n_queens) | bit ||
-51 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | Hard | _O(n^3)_ | _O(n*n)_ | [99.27(42ms, 1704)](./python/solutions/n_queens_ii) | bit ||
+52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | Hard | _O(n^3)_ | _O(n*n)_ | [99.27(42ms, 1704)](./python/solutions/n_queens_ii) | bit ||
 
 ## <span id="dynamic-programming">Dynamic Programming</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -201,7 +202,8 @@ Here is the classification of free questions.
 ## <span id="sortsort">Sort</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
-55 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | _O(m)_ | _O(1)_ | [92.09(72ms, 170726)](./python/solutions/merge_intervals) | ||
+56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | _O(m)_ | _O(1)_ | [92.09(72ms, 170726)](./python/solutions/merge_intervals) | ||
+57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | Hard | _O(m)_ | _O(1)_ | [98.84(62ms, 170727)](./python/solutions/insert_intervals) | leetcode may give wrong Runtime ||
 
 <!--
 <meta http-equiv="refresh" content="5">
