@@ -12,14 +12,12 @@ class Solution(object):
         """
         if not nums:
             return 0
-        check, sentry = 0, nums[0]
+        end, sentry = 1, nums[0]
         for i in range(1, len(nums)):
             if sentry != nums[i]:
-                check += 1
-                if check != i:
-                    nums[check] = nums[i]
-                sentry = nums[check]
-        return check + 1
+                sentry = nums[end] = nums[i]
+                end += 1
+        return end
     
     def removeDuplicates_old(self, nums):
         """
