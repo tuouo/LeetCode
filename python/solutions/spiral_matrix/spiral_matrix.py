@@ -26,6 +26,13 @@ class Solution(object):
         elif top == bottom:
             result.extend(matrix[top][left:right + 1])
         return result
+    
+    def interesting(self, matrix):
+        result = []
+        while matrix:
+            result += matrix[0]
+            matrix = zip(*matrix[1:])[::-1]
+        return result
 
 
 class TestCase(unittest.TestCase):
