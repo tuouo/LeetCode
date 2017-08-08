@@ -50,7 +50,7 @@ Here is the classification of free questions.
 15 | [3Sum](https://leetcode.com/problems/3sum) | Medium | _O(n^2)_ | _O(1)_ | [97.21(848ms, 1705)](./python/solutions/3sum) | sorted, meet ||
 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | Medium | _O(n^2)_ | _O(1)_ | [56.32(145ms, 1705)](./python/solutions/3sum_closest) | sorted, meet ||
 18 | [4Sum](https://leetcode.com/problems/4sum) | Medium | _O(n^3)_ | _O(1)_ | [86.12(132ms, 1703)](./python/solutions/4sum) | 3sum ||
-26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | _O(n)_ | _O(1)_ | [33.03(112ms, 1703)](./python/solutions/remove_duplicates_from_sorted_array) | ||
+26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | _O(n)_ | _O(1)_ | [77.68(79ms,170801)](./python/solutions/remove_duplicates_from_sorted_array) | ||
 27 | [Remove Element](https://leetcode.com/problems/remove-element) | Easy | _O(n)_ | _O(1)_ | [67.84(45ms, 1703)](./python/solutions/remove_element) | ||
 31 | [Next Permutation](https://leetcode.com/problems/next-permutation) | Medium | _O(n)_ | _O(1)_ | [56.61(62ms, 1703)](./python/solutions/next_permutation) | ||
 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | _O(logn)_ | _O(1)_ | [21.87(58ms, 1703)](./python/solutions/search_in_rotated_sorted_array) | Binary Search ||
@@ -111,7 +111,7 @@ Here is the classification of free questions.
 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | Medium | _O(n^2)_ | _O(1)_ | [56.32(145ms, 1705)](./python/solutions/3sum_closest) | sorted, meet ||
 18 | [4Sum](https://leetcode.com/problems/4sum) | Medium | _O(n^3)_ | _O(1)_ | [86.12(132ms, 1703)](./python/solutions/4sum) | 3sum ||
 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | Medium | _O(n)_ | _O(1)_ | [93.74(42ms,170623)](./python/solutions/remove_nth_node_from_end_of_list) | ||
-26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | _O(n)_ | _O(1)_ | [33.03(112ms, 1703)](./python/solutions/remove_duplicates_from_sorted_array) | ||
+26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | _O(n)_ | _O(1)_ | [77.68(79ms,170801)](./python/solutions/remove_duplicates_from_sorted_array) | ||
 27 | [Remove Element](https://leetcode.com/problems/remove-element) | Easy | _O(n)_ | _O(1)_ | [67.84(45ms, 1703)](./python/solutions/remove_element) | ||
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy | _O(mn)_ | _O(n)_ | [41.03(58ms, 1703)](./python/solutions/implement_strStr) | ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [70.72(98ms,170620)](./python/solutions/substring_with_oncatenation_of_all_words) | use find info ||
