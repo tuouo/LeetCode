@@ -101,6 +101,7 @@ Here is the classification of free questions.
 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | _O(m/n)_ | _O(1)_ | [33.58(68ms, 1703)](./python/solutions/divide_two_integers) | ||
 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [94.76(49ms,1704) / 76.65(168ms,170629)](./python/solutions/multiply_strings) | carry, once ||
 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Medium | _O(m*n)_ | _O(m+n)_ | [74.33(39ms, 1705)](./python/solutions/powx_n) | ||
+60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium | _O(n)_ | _O(n)_ | [33.52(45ms, 1705)](./python/solutions/permutation_sequence) | ||
 
 ## <span id="two-pointers">Two Pointers</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -171,6 +172,7 @@ Here is the classification of free questions.
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium | _O(n!)_ | _O(n*n!)_ | [_94.36(99ms,1703)_](./python/solutions/permutationsII) | ||
 51 | [N-Queens](https://leetcode.com/problems/n-queens) | Hard | _O(n^3)_ | _O(n*n)_ | [100(62ms,170717)](./python/solutions/n_queens) | bit ||
 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | Hard | _O(n^3)_ | _O(n*n)_ | [99.27(42ms, 1704)](./python/solutions/n_queens_ii) | bit ||
+60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium | _O(n)_ | _O(n)_ | [33.52(45ms, 1705)](./python/solutions/permutation_sequence) | ||
 
 ## <span id="dynamic-programming">Dynamic Programming</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
