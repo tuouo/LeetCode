@@ -88,6 +88,7 @@ Here is the classification of free questions.
 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | Hard | _O(nlogk)_ | _O(1)_ | [98.15(105ms, 1703)](./python/solutions/merge_k_sorted_list) | ||
 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | Easy | _O(n)_ | _O(1)_ | [60.77(42ms, 1703)](./python/solutions/swap_nodes_in_pairs) | ||
 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | Hard | _O(n)_ | _O(1)_ | [73.50(72ms,170605)](./python/solutions/reverse_nodes_in_k_group) | ||
+61 | [Rotate List](https://leetcode.com/problems/rotate-list) | Medium | _O(n)_ | _O(1)_ | [83.99(45ms,170811)](./python/solutions/rotate_list) | ||
 
 ## <span id="math">Math</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -117,6 +118,7 @@ Here is the classification of free questions.
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy | _O(mn)_ | _O(n)_ | [41.03(58ms, 1703)](./python/solutions/implement_strStr) | ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | _O(mnk)_ | _O(nk)_ | [70.72(98ms,170620)](./python/solutions/substring_with_oncatenation_of_all_words) | use find info ||
 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [72.91(52ms,170627)](./python/solutions/trapping_rain_water) | PEAK peak PEAK ||
+61 | [Rotate List](https://leetcode.com/problems/rotate-list) | Medium | _O(n)_ | _O(1)_ | [83.99(45ms,170811)](./python/solutions/rotate_list) | ||
 
 ## <span id="string">String</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
