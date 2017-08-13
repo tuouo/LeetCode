@@ -67,6 +67,7 @@ Here is the classification of free questions.
 55 | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | _O(m)_ | _O(1)_ | [63.92(52ms,170723)](./python/solutions/jump_game) | ||
 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | _O(m)_ | _O(1)_ | [92.09(72ms,170726)](./python/solutions/merge_intervals) | ||
 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | Hard | _O(m)_ | _O(1)_ | [98.84(62ms,170727)](./python/solutions/insert_intervals) | leetcode may give wrong Runtime ||
+62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | _O(1)_ | _O(1)_ | [76.22(32ms,1705)](./python/solutions/unique_paths) | directly ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -183,6 +184,7 @@ Here is the classification of free questions.
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | _O(n)_ | _O(1)_ | [72.88(79ms,170614)](./python/solutions/longest_valid_parentheses) | ||
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [86.49(109ms,1704)](./python/solutions/wildcard_matching) | ||
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [88.17(45ms,170719)](./python/solutions/maximum_subarray) | ||
+62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | _O(1)_ | _O(1)_ | [76.22(32ms,1705)](./python/solutions/unique_paths) | directly ||
 
 ## <span id="stack">Stack</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
