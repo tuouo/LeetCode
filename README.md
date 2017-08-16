@@ -69,6 +69,7 @@ Here is the classification of free questions.
 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | Hard | _O(m)_ | _O(1)_ | [98.84(62ms,170727)](./python/solutions/insert_intervals) | leetcode may give wrong Runtime ||
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | _O(1)_ | _O(1)_ | [76.22(32ms,1705)](./python/solutions/unique_paths) | directly ||
 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium | _O(mn)_ | _O(m)_ | [51,91(39ms,170815)](./python/solutions/unique_paths_ii) | ||
+64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium | _O(mn)_ | _O(m)_ | [66.04(58ms,1705)](./python/solutions/minimum_path_sum) | ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -187,6 +188,7 @@ Here is the classification of free questions.
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | _O(n)_ | _O(1)_ | [88.17(45ms,170719)](./python/solutions/maximum_subarray) | ||
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | _O(1)_ | _O(1)_ | [76.22(32ms,1705)](./python/solutions/unique_paths) | directly ||
 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium | _O(mn)_ | _O(m)_ | [51,91(39ms,170815)](./python/solutions/unique_paths_ii) | ||
+64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium | _O(mn)_ | _O(m)_ | [66.04(58ms,1705)](./python/solutions/minimum_path_sum) | ||
 
 ## <span id="stack">Stack</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
