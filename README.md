@@ -106,6 +106,7 @@ Here is the classification of free questions.
 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | _O(m*n)_ | _O(m+n)_ | [94.76(49ms,1704) / 76.65(168ms,170629)](./python/solutions/multiply_strings) | carry, once ||
 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Medium | _O(m*n)_ | _O(m+n)_ | [74.33(39ms, 1705)](./python/solutions/powx_n) | ||
 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium | _O(n)_ | _O(n)_ | [33.52(45ms, 1705)](./python/solutions/permutation_sequence) | ||
+65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
 
 ## <span id="two-pointers">Two Pointers</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -145,6 +146,7 @@ Here is the classification of free questions.
 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | _O(m*n)_ | _O(1)_ | [86.49(109ms,1704)](./python/solutions/wildcard_matching) | ||
 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | _O(mn)_ | _O(mn)_ | [90.95(212ms, 170711)](./python/solutions/group_anagrams) | frequency with hash ||
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-words) | Easy | _O(1)_ | _O(1)_ | [84.46(32ms,170729)](./python/solutions/length_of_last_word) | ||
+65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
