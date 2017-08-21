@@ -70,6 +70,7 @@ Here is the classification of free questions.
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | _O(1)_ | _O(1)_ | [76.22(32ms,1705)](./python/solutions/unique_paths) | directly ||
 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium | _O(mn)_ | _O(m)_ | [51,91(39ms,170815)](./python/solutions/unique_paths_ii) | ||
 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium | _O(mn)_ | _O(m)_ | [66.04(58ms,1705)](./python/solutions/minimum_path_sum) | ||
+66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | _O(n)_ | _O(1)_ | [32.37(42ms,1705)](./python/solutions/plus_one) | ||
 
 ## <span id="hash-table">Hash Table</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -107,6 +108,7 @@ Here is the classification of free questions.
 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Medium | _O(m*n)_ | _O(m+n)_ | [74.33(39ms, 1705)](./python/solutions/powx_n) | ||
 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium | _O(n)_ | _O(n)_ | [33.52(45ms, 1705)](./python/solutions/permutation_sequence) | ||
 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
+66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | _O(n)_ | _O(1)_ | [32.37(42ms,1705)](./python/solutions/plus_one) | ||
 
 ## <span id="two-pointers">Two Pointers</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
