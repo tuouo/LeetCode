@@ -109,6 +109,7 @@ Here is the classification of free questions.
 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium | _O(n)_ | _O(n)_ | [33.52(45ms, 1705)](./python/solutions/permutation_sequence) | ||
 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | _O(n)_ | _O(1)_ | [32.37(42ms,1705)](./python/solutions/plus_one) | ||
+67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | _O(1)_ | _O(1)_ | [82.49(42ms,1705)](./python/solutions/add_binary) | ||
 
 ## <span id="two-pointers">Two Pointers</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -149,6 +150,7 @@ Here is the classification of free questions.
 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | _O(mn)_ | _O(mn)_ | [90.95(212ms, 170711)](./python/solutions/group_anagrams) | frequency with hash ||
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-words) | Easy | _O(1)_ | _O(1)_ | [84.46(32ms,170729)](./python/solutions/length_of_last_word) | ||
 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
+67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | _O(1)_ | _O(1)_ | [82.49(42ms,1705)](./python/solutions/add_binary) | ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
