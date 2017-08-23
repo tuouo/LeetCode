@@ -151,6 +151,7 @@ Here is the classification of free questions.
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-words) | Easy | _O(1)_ | _O(1)_ | [84.46(32ms,170729)](./python/solutions/length_of_last_word) | ||
 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | _O(1)_ | _O(1)_ | [82.49(42ms,1705)](./python/solutions/add_binary) | ||
+68 | [Text Justification ](https://leetcode.com/problems/text-justification) | Hard | _O(n)_ | _O(n)_ | [59.32(35ms,1705)](./python/solutions/text_justification) | ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
