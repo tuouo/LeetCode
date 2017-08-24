@@ -110,6 +110,7 @@ Here is the classification of free questions.
 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | _O(n)_ | _O(1)_ | [32.37(42ms,1705)](./python/solutions/plus_one) | ||
 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | _O(1)_ | _O(1)_ | [82.49(42ms,1705)](./python/solutions/add_binary) | ||
+69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | _O(1)_ | _O(1)_ | [77.55(42ms,1705)](./python/solutions/add_binary) | sqrtx ||
 
 ## <span id="two-pointers">Two Pointers</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -162,6 +163,7 @@ Here is the classification of free questions.
 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range) | Medium | _O(logn)_ | _O(1)_ | [73.72(45ms,170620)](./python/solutions/search_for_a_range) | Search left, then right ||
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | _O(logn)_ | _O(1)_ | [82.93(39ms,170620)](./python/solutions/search_insert_position) | check range & bisect ||
 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Medium | _O(m*n)_ | _O(m+n)_ | [74.33(39ms, 1705)](./python/solutions/powx_n) | ||
+69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | _O(1)_ | _O(1)_ | [77.55(42ms,1705)](./python/solutions/add_binary) | sqrtx ||
 
 ## <span id="divide-and-conquer">Divide & Conquer</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
