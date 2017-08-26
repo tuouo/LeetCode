@@ -198,6 +198,7 @@ Here is the classification of free questions.
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | _O(1)_ | _O(1)_ | [76.22(32ms,1705)](./python/solutions/unique_paths) | directly ||
 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium | _O(mn)_ | _O(m)_ | [51,91(39ms,170815)](./python/solutions/unique_paths_ii) | ||
 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium | _O(mn)_ | _O(m)_ | [66.04(58ms,1705)](./python/solutions/minimum_path_sum) | ||
+70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | _O(1)_ | _O(1)_ | [38.2(36ms,1705)](./python/solutions/climbing_stairsm) | ||
 
 ## <span id="stack">Stack</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
