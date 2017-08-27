@@ -153,6 +153,7 @@ Here is the classification of free questions.
 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | _O(1)_ | _O(1)_ | [37.72(62ms,170729)](./python/solutions/valid_number) | ||
 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | _O(1)_ | _O(1)_ | [82.49(42ms,1705)](./python/solutions/add_binary) | ||
 68 | [Text Justification ](https://leetcode.com/problems/text-justification) | Hard | _O(n)_ | _O(n)_ | [59.32(35ms,1705)](./python/solutions/text_justification) | ||
+71 | [Simplify Path](https://leetcode.com/problems/simplify-path) | Medium | _O(n)_ | _O(n)_ | [67.63(42ms,170827)](./python/solutions/simplify_path) |  ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -204,7 +205,8 @@ Here is the classification of free questions.
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
 |:---:|:-------|:------------:|:------:|:-------:|:----------:|:-------|
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | _O(n)_ | _O(n)_ | [92.77(39ms, 1703)](./python/solutions/valid_parentheses) | ||
-42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [72.91(52ms,1706278)](./python/solutions/trapping_rain_water) | PEAK peak PEAK ||
+42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | _O(n)_ | _O(n)_ | [72.91(52ms,170627)](./python/solutions/trapping_rain_water) | PEAK peak PEAK ||
+71 | [Simplify Path](https://leetcode.com/problems/simplify-path) | Medium | _O(n)_ | _O(n)_ | [67.63(42ms,170827)](./python/solutions/simplify_path) |  ||
 
 ## <span id="heap">Heap</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
