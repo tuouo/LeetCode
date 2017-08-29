@@ -154,6 +154,7 @@ Here is the classification of free questions.
 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | _O(1)_ | _O(1)_ | [82.49(42ms,1705)](./python/solutions/add_binary) | ||
 68 | [Text Justification ](https://leetcode.com/problems/text-justification) | Hard | _O(n)_ | _O(n)_ | [59.32(35ms,1705)](./python/solutions/text_justification) | ||
 71 | [Simplify Path](https://leetcode.com/problems/simplify-path) | Medium | _O(n)_ | _O(n)_ | [67.63(42ms,170827)](./python/solutions/simplify_path) |  ||
+72 | [Edit Distance](https://leetcode.com/problems/edit-distance) | Hard | _O(mn)_ | _O(n)_ | [91.79(198ms,17005)](./python/solutions/edit_distanc) |  ||
 
 ## <span id="binary-search">Binary Search</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
@@ -200,6 +201,7 @@ Here is the classification of free questions.
 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium | _O(mn)_ | _O(m)_ | [51,91(39ms,170815)](./python/solutions/unique_paths_ii) | ||
 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium | _O(mn)_ | _O(m)_ | [66.04(58ms,1705)](./python/solutions/minimum_path_sum) | ||
 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | _O(1)_ | _O(1)_ | [38.2(36ms,1705)](./python/solutions/climbing_stairsm) | ||
+72 | [Edit Distance](https://leetcode.com/problems/edit-distance) | Hard | _O(mn)_ | _O(n)_ | [91.79(198ms,17005)](./python/solutions/edit_distanc) |  ||
 
 ## <span id="stack">Stack</span>
 | No. |  Title  |  Difficulty  |  Time  |  Space  |  Solution Runtime |  Tip  |
